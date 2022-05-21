@@ -14,7 +14,7 @@
       <button
         aria-label="Search for alcohol"
         name="Search for alcohol"
-        class="btn btn-active btn-primary md:ml-4 mt-4 md:mt-0 w-full md:max-w-xs"
+        class="btn btn-active btn-secondary md:ml-4 mt-4 md:mt-0 w-full md:max-w-xs"
         @click="getPlayerDataFromSearch()"
       >
         Search
