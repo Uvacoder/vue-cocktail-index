@@ -7,8 +7,6 @@ export function useSearchData() {
 
   const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
   const searchData = ref([])
-  const topScorerData = ref([])
-  const responseData = ref([])
 
   const searchInput = ref('')
 
@@ -26,8 +24,6 @@ export function useSearchData() {
   return {
     getPlayerDataFromSearch,
     searchInput,
-    topScorerData,
-    responseData,
     searchData,
   }
 }
