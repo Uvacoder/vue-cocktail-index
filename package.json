@@ -10,18 +10,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.6.2",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.2",
     "@vitejs/plugin-vue": "^2.2.2",
-    "chart.js": "^3.7.1",
     "daisyui": "^2.15.0",
-    "spotify-web-api-js": "^1.5.2",
-    "spotify-web-api-node": "^5.0.2",
     "vue": "^3.2.31",
-    "vue-chart-3": "^3.1.8",
-    "vue-router": "^4.0.12",
-    "vue-spotify": "^1.0.2"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.12.1",
