@@ -38,9 +38,11 @@
             >
           </figure>
           <div class="card-body">
-            <h2 class="card-title">
+            <h2 class="card-title w-full md:w-auto">
               {{ drinksData.strDrink }}
-              <div class="badge badge-secondary">
+              <div
+                class="badge badge-secondary w-full max-h-full md:h-auto md:w-auto"
+              >
                 {{ drinksData.strCategory }}
               </div>
             </h2>
@@ -50,7 +52,7 @@
             </h3>
             <p>{{ drinksData.strInstructions }}</p>
             <div class="card-actions justify-end">
-              <div class="badge badge-secondary">
+              <div class="badge badge-secondary md:mt-0 mt-4">
                 {{ drinksData.strAlcoholic }}
               </div>
             </div>
