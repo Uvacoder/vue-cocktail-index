@@ -1,15 +1,15 @@
 <template>
-  <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-    <div class="max-w-5xl mx-auto my-6">
-      <router-view />
-    </div>
+  <div class="container mx-4 px-4">
+    <HomeView />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
+import HomeView from './views/HomeView.vue'
 export default defineComponent({
-  components: {},
+  components: {
+    HomeView,
+  },
 })
 </script>
