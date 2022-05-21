@@ -2,7 +2,7 @@
   <div class="w-full mt-6 px-6">
     <div class="flex flex-col md:flex-row md:flex-wrap">
       <h1 class="font-bold text-lg mb-4 mt-4 w-full">
-        Search for an alcholic beverage
+        Search for a drink or an alcholic beverage (like rum)
       </h1>
       <input
         v-model="searchInput"
