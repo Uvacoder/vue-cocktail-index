@@ -34,6 +34,7 @@
             <img
               :src="drinksData.strDrinkThumb"
               :alt="drinksData.strDrink"
+              loading="lazy"
             >
           </figure>
           <div class="card-body">
