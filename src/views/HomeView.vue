@@ -59,7 +59,7 @@
             >
               <div class="stat">
                 <div class="stat-title">
-                  Type of glass
+                  Glass
                 </div>
                 <div class="font-bold white-text text-2xl">
                   {{ drinksData.strGlass }}
